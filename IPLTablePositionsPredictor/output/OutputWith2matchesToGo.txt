@@ -1,0 +1,130 @@
+
+Initial Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+GL		14	9	5		0		0	18	-0.374
+SRH		13	8	5		0		0	16	0.355
+RCB		13	7	6		0		0	14	0.93
+KKR		13	7	6		0		0	14	0.022
+DD		13	7	6		0		0	14	-0.102
+MI		14	7	7		0		0	14	-0.146
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+GL		14	9	5		0		0	18	-0.374
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+DD		14	8	6		0		0	16	-0.102
+RCB		14	7	7		0		0	14	0.93
+MI		14	7	7		0		0	14	-0.146
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+GL		14	9	5		0		0	18	-0.374
+RCB		14	8	6		0		0	16	0.93
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+DD		14	7	7		0		0	14	-0.102
+MI		14	7	7		0		0	14	-0.146
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+GL		14	9	5		0		0	18	-0.374
+DD		14	8	6		0		0	16	-0.102
+RCB		14	7	7		0		0	14	0.93
+KKR		14	7	7		0		0	14	0.022
+MI		14	7	7		0		0	14	-0.146
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+GL		14	9	5		0		0	18	-0.374
+RCB		14	8	6		0		0	16	0.93
+KKR		14	7	7		0		0	14	0.022
+DD		14	7	7		0		0	14	-0.102
+MI		14	7	7		0		0	14	-0.146
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+
+
+Qualification Scenario 1: MatchResults Set 1:
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: RCB
+
+Qualification Scenario 1:
+The following teams are qualified :
+		GL,KKR,RCB,SRH,
+The following teams contend to enter top 4 based on NRR :
+		
+
+Qualification Scenario 2: MatchResults Set 1:
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: DD
+
+Qualification Scenario 2:
+The following teams are qualified :
+		DD,GL,SRH,
+The following teams contend to enter top 4 based on NRR :
+		KKR,MI,RCB,
+
+Qualification Scenario 3: MatchResults Set 1:
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: DD
+
+Qualification Scenario 3:
+The following teams are qualified :
+		DD,GL,KKR,SRH,
+The following teams contend to enter top 4 based on NRR :
+		
+
+Qualification Scenario 4: MatchResults Set 1:
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: RCB
+
+Qualification Scenario 4:
+The following teams are qualified :
+		GL,RCB,SRH,
+The following teams contend to enter top 4 based on NRR :
+		DD,KKR,MI,

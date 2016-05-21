@@ -4,49 +4,56 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Stream;
 
 import javafx.util.Pair;
 
 public class TablePositionsPredictor {
-
+	
 	public static void main(String args[]) {
 		//TablePositionsPredictor predictor = new TablePositionsPredictor();
 		//Init PointsTableAndFixtures with default values. TODO: Implement for user input or testcase input.
-		PointsTableAndFixtures pointsTableAndFixtures = new PointsTableAndFixtures(); 
-		TablePositionsPredictor.predict(pointsTableAndFixtures);
+		PointsTableAndFixtures pointsTableAndFixtures = new PointsTableAndFixtures();
+		
+		System.out.println("\nInitial Points Table:");
+		System.out.println(PointsTableRow.titleRow());
+		
+		Map<String, PointsTableRow> sortedPointsTable = sortByValue(pointsTableAndFixtures.pointsTable);
+		for(PointsTableRow row: sortedPointsTable.values()) {
+			System.out.println(row.printableRow());
+		}
+		System.out.println("\n");
+		
+		TablePositionsPredictor predictor = new TablePositionsPredictor();
+		predictor.predict(pointsTableAndFixtures);
+	}
+	public HashMap<TopTeams, ArrayList<ArrayList<MatchResult>>> topTeamsVsMatchResults;
+	
+	TablePositionsPredictor() {
+		topTeamsVsMatchResults = new HashMap<TopTeams, ArrayList<ArrayList<MatchResult>>>();
 	}
 	
-	private static void predict(PointsTableAndFixtures pointsTableAndFixtures) {
+	private void predict(PointsTableAndFixtures pointsTableAndFixtures) {
 		ArrayList<Pair<String, String>> remainingMatches = new ArrayList<>(pointsTableAndFixtures.remainingMatches);
 		HashMap<String, PointsTableRow> pointsTable = new HashMap<>(pointsTableAndFixtures.pointsTable);
 		
-		ArrayList<MatchResult> matchResults = new ArrayList<MatchResult>(pointsTableAndFixtures.remainingNoOfMatches); 
+		ArrayList<MatchResult> matchResults = new ArrayList<MatchResult>(remainingMatches.size()); 
 		predict(remainingMatches, pointsTable, matchResults);
+		printConsolidated();
 	}
 	
-	private static void predict(ArrayList<Pair<String, String>> remainingMatches, 
+	private void predict(ArrayList<Pair<String, String>> remainingMatches, 
 			HashMap<String, PointsTableRow> pointsTable, ArrayList<MatchResult> matchResults) {
 		
 		if(remainingMatches.size() == 0) {
 			//Print the result and return.
 			
-			System.out.println("The following sets of results will result in the points table given below.");
-			System.out.println("\nResults:");
-			
-			for(MatchResult result : matchResults) {
-				String team1 = result.match.getKey();
-				String team2 = result.match.getValue();
-				System.out.println(team1 + " vs " + team2 + ".\t Won by: " + result.winTeam);
-			}
-			
-			System.out.println("\nPoints Table:");
-			System.out.println(PointsTableRow.titleRow());
 			Map<String, PointsTableRow> sortedPointsTable = sortByValue(pointsTable);
-			for(PointsTableRow row: sortedPointsTable.values()) {
-				System.out.println(row.printableRow());
-			}
-			System.out.println("\n\n");
+			saveConsolidatedResults(sortedPointsTable, matchResults);
+			
+			print(sortedPointsTable, matchResults);
 			return;
 		}
 		
@@ -78,6 +85,115 @@ public class TablePositionsPredictor {
 		newPointsTable.put(team2, team2TableRowAfterWin);
 		newMatchResultsTeam2Wins.add(new MatchResult(match, team2));
 		predict(newRemainingMatches, newPointsTable, newMatchResultsTeam2Wins);
+	}
+
+	
+	private void saveConsolidatedResults(
+			Map<String, PointsTableRow> sortedPointsTable,
+			ArrayList<MatchResult> matchResults) {
+		
+		TopTeams topTeams = constructTopTeams(sortedPointsTable);
+		ArrayList<ArrayList<MatchResult>> listOfMatchResults = topTeamsVsMatchResults.get(topTeams);
+		if(listOfMatchResults == null) {
+			listOfMatchResults = new ArrayList<ArrayList<MatchResult>>();
+		}
+		listOfMatchResults.add(matchResults);
+		topTeamsVsMatchResults.put(topTeams, listOfMatchResults);
+	}
+	
+	private static TopTeams constructTopTeams(
+			Map<String, PointsTableRow> sortedPointsTable) {
+		ArrayList<String> qualifiedTeams = new ArrayList<String>();
+		ArrayList<String> contendingTeams = new ArrayList<String>();
+		ArrayList<String> teams = new ArrayList<String>();
+		
+		int count = 0;
+		int pointsOfPrevTeam = -1;
+		for(PointsTableRow tableRow : sortedPointsTable.values()) {
+			count++;
+			int points = tableRow.points;
+			String team = tableRow.team;
+			
+			if(count < 5) {
+				if(pointsOfPrevTeam == points) {
+					teams.add(team);
+				} else {
+					qualifiedTeams.addAll(teams);
+					pointsOfPrevTeam = points;
+					teams.clear();
+					teams.add(team);
+				}
+			} else if(pointsOfPrevTeam == points) {
+				teams.add(team);
+			} else {
+				if(count == 5) {
+					qualifiedTeams.addAll(teams);
+				} else {
+					contendingTeams.addAll(teams);
+				}
+				teams.clear();
+				teams = null;
+				break;
+			}
+		}
+		
+		return new TopTeams(qualifiedTeams, contendingTeams);
+	}
+
+	private void printConsolidated() {
+		
+		int i = 0;
+		for(Entry<TopTeams, ArrayList<ArrayList<MatchResult>>> entry : topTeamsVsMatchResults.entrySet()) {
+			i++;
+			TopTeams topTeams = entry.getKey();
+			ArrayList<ArrayList<MatchResult>> listOfMatchResults = entry.getValue();
+			System.out.println("\n");
+			
+			int j = 1;
+			for(ArrayList<MatchResult> matchResults : listOfMatchResults) {
+				System.out.println("Qualification Scenario " + i +": MatchResults Set " + j++ + ":");
+				for(MatchResult result : matchResults) {
+					String team1 = result.match.getKey();
+					String team2 = result.match.getValue();
+					System.out.println("\t\t" + team1 + " vs " + team2 + ".\t Won by: " + result.winTeam);
+				}
+			}
+			
+			System.out.println("\nQualification Scenario " + i + ":");
+			System.out.println("The following teams are qualified :");
+			System.out.print("\t\t");
+			for(String team : topTeams.sortedQualifiedTeams) {
+				System.out.print(team + ",");
+			}
+			System.out.println("\nThe following teams contend to enter top 4 based on NRR :");
+			System.out.print("\t\t");
+			for(String team : topTeams.sortedContendingTeams) {
+				System.out.print(team + ",");
+			}
+		}
+	}
+
+	//This method shall be used if entire pointsTable needs to be printed for each combination of matchResults. 
+	private static void print(
+			Map<String, PointsTableRow> pointsTable,
+			ArrayList<MatchResult> matchResults) {
+		
+		System.out.println("The following sets of results will result in the points table given below.");
+		System.out.println("\nResults:");
+		
+		for(MatchResult result : matchResults) {
+			String team1 = result.match.getKey();
+			String team2 = result.match.getValue();
+			System.out.println(team1 + " vs " + team2 + ".\t Won by: " + result.winTeam);
+		}
+		
+		System.out.println("\nPoints Table:");
+		System.out.println(PointsTableRow.titleRow());
+		
+		for(PointsTableRow row: pointsTable.values()) {
+			System.out.println(row.printableRow());
+		}
+		System.out.println("\n\n");		
 	}
 
 	private static PointsTableRow addLoss(PointsTableRow tableRow) {

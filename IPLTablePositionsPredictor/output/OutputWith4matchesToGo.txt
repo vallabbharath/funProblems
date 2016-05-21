@@ -1,0 +1,486 @@
+
+Initial Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		13	8	5		0		0	16	0.355
+GL		13	8	5		0		0	16	-0.479
+RCB		13	7	6		0		0	14	0.93
+KKR		13	7	6		0		0	14	0.022
+MI		13	7	6		0		0	14	-0.082
+DD		13	7	6		0		0	14	-0.102
+RPS		13	4	9		0		0	8	0.013
+KXP		13	4	9		0		0	8	-0.693
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+GL		14	9	5		0		0	18	-0.479
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+DD		14	8	6		0		0	16	-0.102
+RCB		14	7	7		0		0	14	0.93
+MI		14	7	7		0		0	14	-0.082
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+GL		14	9	5		0		0	18	-0.479
+RCB		14	8	6		0		0	16	0.93
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+MI		14	7	7		0		0	14	-0.082
+DD		14	7	7		0		0	14	-0.102
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+GL		14	9	5		0		0	18	-0.479
+DD		14	8	6		0		0	16	-0.102
+RCB		14	7	7		0		0	14	0.93
+KKR		14	7	7		0		0	14	0.022
+MI		14	7	7		0		0	14	-0.082
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+GL		14	9	5		0		0	18	-0.479
+RCB		14	8	6		0		0	16	0.93
+KKR		14	7	7		0		0	14	0.022
+MI		14	7	7		0		0	14	-0.082
+DD		14	7	7		0		0	14	-0.102
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+MI		14	8	6		0		0	16	-0.082
+DD		14	8	6		0		0	16	-0.102
+GL		14	8	6		0		0	16	-0.479
+RCB		14	7	7		0		0	14	0.93
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+RCB		14	8	6		0		0	16	0.93
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+MI		14	8	6		0		0	16	-0.082
+GL		14	8	6		0		0	16	-0.479
+DD		14	7	7		0		0	14	-0.102
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+MI		14	8	6		0		0	16	-0.082
+DD		14	8	6		0		0	16	-0.102
+GL		14	8	6		0		0	16	-0.479
+RCB		14	7	7		0		0	14	0.93
+KKR		14	7	7		0		0	14	0.022
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: RPS
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+RCB		14	8	6		0		0	16	0.93
+MI		14	8	6		0		0	16	-0.082
+GL		14	8	6		0		0	16	-0.479
+KKR		14	7	7		0		0	14	0.022
+DD		14	7	7		0		0	14	-0.102
+RPS		14	5	9		0		0	10	0.013
+KXP		14	4	10		0		0	8	-0.693
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+GL		14	9	5		0		0	18	-0.479
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+DD		14	8	6		0		0	16	-0.102
+RCB		14	7	7		0		0	14	0.93
+MI		14	7	7		0		0	14	-0.082
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+GL		14	9	5		0		0	18	-0.479
+RCB		14	8	6		0		0	16	0.93
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+MI		14	7	7		0		0	14	-0.082
+DD		14	7	7		0		0	14	-0.102
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+GL		14	9	5		0		0	18	-0.479
+DD		14	8	6		0		0	16	-0.102
+RCB		14	7	7		0		0	14	0.93
+KKR		14	7	7		0		0	14	0.022
+MI		14	7	7		0		0	14	-0.082
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: GL
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+GL		14	9	5		0		0	18	-0.479
+RCB		14	8	6		0		0	16	0.93
+KKR		14	7	7		0		0	14	0.022
+MI		14	7	7		0		0	14	-0.082
+DD		14	7	7		0		0	14	-0.102
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+MI		14	8	6		0		0	16	-0.082
+DD		14	8	6		0		0	16	-0.102
+GL		14	8	6		0		0	16	-0.479
+RCB		14	7	7		0		0	14	0.93
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: KKR
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+RCB		14	8	6		0		0	16	0.93
+SRH		14	8	6		0		0	16	0.355
+KKR		14	8	6		0		0	16	0.022
+MI		14	8	6		0		0	16	-0.082
+GL		14	8	6		0		0	16	-0.479
+DD		14	7	7		0		0	14	-0.102
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: DD
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+MI		14	8	6		0		0	16	-0.082
+DD		14	8	6		0		0	16	-0.102
+GL		14	8	6		0		0	16	-0.479
+RCB		14	7	7		0		0	14	0.93
+KKR		14	7	7		0		0	14	0.022
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+The following sets of results will result in the points table given below.
+
+Results:
+RPS vs KXP.	 Won by: KXP
+GL vs MI.	 Won by: MI
+KKR vs SRH.	 Won by: SRH
+DD vs RCB.	 Won by: RCB
+
+Points Table:
+Team	Mat	Won	Lost	Tied	NR	Pts	NRR
+SRH		14	9	5		0		0	18	0.355
+RCB		14	8	6		0		0	16	0.93
+MI		14	8	6		0		0	16	-0.082
+GL		14	8	6		0		0	16	-0.479
+KKR		14	7	7		0		0	14	0.022
+DD		14	7	7		0		0	14	-0.102
+KXP		14	5	9		0		0	10	-0.693
+RPS		14	4	10		0		0	8	0.013
+
+
+
+
+
+Qualification Scenario 1: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: RCB
+Qualification Scenario 1: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: RCB
+
+Qualification Scenario 1:
+The following teams are qualified :
+		GL,KKR,RCB,SRH,
+The following teams contend to enter top 4 based on NRR :
+		
+
+Qualification Scenario 2: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: RCB
+Qualification Scenario 2: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: RCB
+
+Qualification Scenario 2:
+The following teams are qualified :
+		
+The following teams contend to enter top 4 based on NRR :
+		GL,KKR,MI,RCB,SRH,
+
+Qualification Scenario 3: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: DD
+Qualification Scenario 3: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: DD
+
+Qualification Scenario 3:
+The following teams are qualified :
+		DD,GL,MI,SRH,
+The following teams contend to enter top 4 based on NRR :
+		
+
+Qualification Scenario 4: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: DD
+Qualification Scenario 4: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: DD
+
+Qualification Scenario 4:
+The following teams are qualified :
+		DD,GL,SRH,
+The following teams contend to enter top 4 based on NRR :
+		KKR,MI,RCB,
+
+Qualification Scenario 5: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: DD
+Qualification Scenario 5: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: DD
+
+Qualification Scenario 5:
+The following teams are qualified :
+		DD,GL,KKR,SRH,
+The following teams contend to enter top 4 based on NRR :
+		
+
+Qualification Scenario 6: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: RCB
+Qualification Scenario 6: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: GL
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: RCB
+
+Qualification Scenario 6:
+The following teams are qualified :
+		GL,RCB,SRH,
+The following teams contend to enter top 4 based on NRR :
+		DD,KKR,MI,
+
+Qualification Scenario 7: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: DD
+Qualification Scenario 7: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: KKR
+		DD vs RCB.	 Won by: DD
+
+Qualification Scenario 7:
+The following teams are qualified :
+		
+The following teams contend to enter top 4 based on NRR :
+		DD,GL,KKR,MI,SRH,
+
+Qualification Scenario 8: MatchResults Set 1:
+		RPS vs KXP.	 Won by: RPS
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: RCB
+Qualification Scenario 8: MatchResults Set 2:
+		RPS vs KXP.	 Won by: KXP
+		GL vs MI.	 Won by: MI
+		KKR vs SRH.	 Won by: SRH
+		DD vs RCB.	 Won by: RCB
+
+Qualification Scenario 8:
+The following teams are qualified :
+		GL,MI,RCB,SRH,
+The following teams contend to enter top 4 based on NRR :
+		
