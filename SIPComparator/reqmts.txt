@@ -1,0 +1,38 @@
+{-
+MF Comparator
+
+Objective:
+1. To see IRR of any SIP or CAGR any SWP (based on past performance)
+   - for any mutual fund
+
+SIP:
+   
+Inputs:
+    1. SIP amount
+    2. SIP start date; 
+	3. frequency
+    3. MF (or index) invested in
+    4. Redemption date
+    5. IRR (as on redemption date)
+    
+Outputs:
+    1. Total invested amount
+    2. Total Redemption amount
+    3. IRR
+    4. Comparable Maturity @8%; @10% and @12% - CAGR
+    
+SWP:
+Inputs:
+    1. Lumpsum investment
+    2. SWP start date, frequency
+    3. SWP amount
+    4. SWP reinvestment interest rate (0%, 4% and 8%)
+    5. Redemption Date
+    6. MF (or index) invested in
+    
+Output:
+    1. Total invested amount
+    2. Redemption + SWP reinvest proceeds
+    3. CAGR for 3 cases (0, 4 and 8% reinv. proceeds)
+    4. Comparable Maturity @8%; @10% and @12%
+-}

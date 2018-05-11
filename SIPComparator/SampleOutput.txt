@@ -1,0 +1,31 @@
+Inputs..
+String frmdate="20-Jan-2013";
+String todate="05-Mar-2015";
+String dateFormat = "dd-MMM-yyyy";
+String mf="28";
+String scheme="120662";
+double sipAmount = 2000;
+int frequency = 14;
+char frequencyMode = 'd';
+
+Output:
+
+Total Amount invested = 110000.0
+Total Number of Units Purchased till date = 1518.5628616617507
+NAV as on redemption date = 107.2126
+Redemption price as on redemption date = 107.2126
+
+Total Amount Redeemed = 162809.07266219662
+Profit Earned = 52809.07266219662
+
+Comparing your profit with a compounded interest recurring deposit of 8% yearly
+Investing the same at 8% CI annually, you would have got, 
+ returns = 115158.4 and profit = 5158.399999999994
+
+Comparing your profit with a compounded interest recurring deposit of 10% yearly
+Investing the same at 10% CI annually, you would have got, 
+ returns = 116460.0 and profit = 6460.0
+
+Comparing your profit with a compounded interest recurring deposit of 12% yearly
+Investing the same at 12% CI annually, you would have got, 
+ returns = 117766.4 and profit = 7766.399999999994
