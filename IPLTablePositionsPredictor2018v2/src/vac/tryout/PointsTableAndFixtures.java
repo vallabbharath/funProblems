@@ -29,9 +29,9 @@ public class PointsTableAndFixtures {
             pointsTable.put("ENG",	new PointsTableRow("ENG",6,4,2,0,0,8, +1.457));
             pointsTable.put("SL",	new PointsTableRow("SL",6,2,2,0,0,6, -1.119));
             pointsTable.put("BD",	new PointsTableRow("BD",6,2,3,0,1,5, -0.407));
-            pointsTable.put("PAK",	new PointsTableRow("PAK",6,2,3,0,1, 5, -1.93));
+            pointsTable.put("PAK",	new PointsTableRow("PAK",6,2,3,0,1, 5, -1.265));
             pointsTable.put("WI",	new PointsTableRow("WI", 6,1,4,0,1,3, +0.19));
-            pointsTable.put("SA",	new PointsTableRow("SA",7,1,5,0,1, 3, -0.193));
+            pointsTable.put("SA",	new PointsTableRow("SA",7,1,5,0,1, 3, -0.324));
             pointsTable.put("AFG",	new PointsTableRow("AFG",6,0,6,0,0,0, -1.712));
         }
         remainingMatches = new ArrayList<Pair<String, String>>();
