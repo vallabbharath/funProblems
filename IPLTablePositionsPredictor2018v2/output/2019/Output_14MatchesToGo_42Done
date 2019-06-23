@@ -1,0 +1,39 @@
+C:\Softwares\Java\jdk8\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.5\lib\idea_rt.jar=59317:C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.5\bin" -Dfile.encoding=UTF-8 -classpath C:\Softwares\Java\jdk8\jre\lib\charsets.jar;C:\Softwares\Java\jdk8\jre\lib\deploy.jar;C:\Softwares\Java\jdk8\jre\lib\ext\access-bridge-64.jar;C:\Softwares\Java\jdk8\jre\lib\ext\cldrdata.jar;C:\Softwares\Java\jdk8\jre\lib\ext\dnsns.jar;C:\Softwares\Java\jdk8\jre\lib\ext\jaccess.jar;C:\Softwares\Java\jdk8\jre\lib\ext\jfxrt.jar;C:\Softwares\Java\jdk8\jre\lib\ext\localedata.jar;C:\Softwares\Java\jdk8\jre\lib\ext\nashorn.jar;C:\Softwares\Java\jdk8\jre\lib\ext\sunec.jar;C:\Softwares\Java\jdk8\jre\lib\ext\sunjce_provider.jar;C:\Softwares\Java\jdk8\jre\lib\ext\sunmscapi.jar;C:\Softwares\Java\jdk8\jre\lib\ext\sunpkcs11.jar;C:\Softwares\Java\jdk8\jre\lib\ext\zipfs.jar;C:\Softwares\Java\jdk8\jre\lib\javaws.jar;C:\Softwares\Java\jdk8\jre\lib\jce.jar;C:\Softwares\Java\jdk8\jre\lib\jfr.jar;C:\Softwares\Java\jdk8\jre\lib\jfxswt.jar;C:\Softwares\Java\jdk8\jre\lib\jsse.jar;C:\Softwares\Java\jdk8\jre\lib\management-agent.jar;C:\Softwares\Java\jdk8\jre\lib\plugin.jar;C:\Softwares\Java\jdk8\jre\lib\resources.jar;C:\Softwares\Java\jdk8\jre\lib\rt.jar;C:\Work\git\funProblems\IPLTablePositionsPredictor2018v2\out\production\IPLTablePositionsPredictor2018v2 vac.tryout.TablePositionsPredictor
+Total number of scenarios = 16384
+Qualification Scenario for team null:
+
+
+Probability of qualification not considering teams with equal points (in Pos 4,5, etc):
+Team CSK = 99.6
+Team DD = 91.2
+Team MI = 73.9
+Team SRH = 39.7
+Team KXP = 19.3
+Team KKR = 10.1
+Team RCB = 1.4
+Team RR = 1
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) based on current NRR :
+Team CSK = 100
+Team DD = 98.9
+Team MI = 90.4
+Team SRH = 68.7
+Team KXP = 22.8
+Team KKR = 15.9
+Team RCB = 1.4
+Team RR = 1
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) by splitting probability:
+i.e, when 2 teams contend for pos 4, consider probability as 0.5, 3 teams for pos 4 as 0.33, 3 teams for pos 3,4 as 0.66 etc
+Team CSK = 99.9
+Team DD = 96.4
+Team MI = 84.2
+Team SRH = 54.3
+Team KXP = 33.5
+Team KKR = 20.2
+Team RCB = 6.7
+Team RR = 3.9
+
+Process finished with exit code 0

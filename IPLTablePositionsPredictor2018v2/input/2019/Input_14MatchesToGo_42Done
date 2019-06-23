@@ -1,0 +1,54 @@
+package vac.tryout;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import javafx.util.Pair;
+
+public class PointsTableAndFixtures {
+
+	public int numberOfTeams;
+	//public ArrayList<String> teams;
+	public HashMap<String, PointsTableRow> pointsTable;
+	public ArrayList<Pair<String, String>> remainingMatches;
+
+	public PointsTableAndFixtures(int numberOfTeams, HashMap<String, PointsTableRow> pointsTable,
+				int remainingNoOfMatches, ArrayList<Pair<String, String>> remainingMatches) {
+		this.numberOfTeams = numberOfTeams;
+		this.pointsTable = new HashMap<>(pointsTable);
+		this.remainingMatches = new ArrayList<>(remainingMatches);
+	}
+
+	public PointsTableAndFixtures() {
+		numberOfTeams = 8;
+		pointsTable = new HashMap<String, PointsTableRow>(numberOfTeams);
+		{
+		    pointsTable.put("CSK",	new PointsTableRow("CSK",11,8,3,0,0,16, +0.091));
+		    pointsTable.put("DD",	new PointsTableRow("DD", 11,7,4,0,0,14, +0.181));
+		    pointsTable.put("MI",	new PointsTableRow("MI", 10,6,4,0,0,12, +0.357));
+			pointsTable.put("SRH",	new PointsTableRow("SRH",10,5,5,0,0,10, +0.654));
+			pointsTable.put("KXP",	new PointsTableRow("KXP",11,5,6,0,0,10, -0.117));
+			pointsTable.put("KKR",	new PointsTableRow("KKR",10,4,6,0,0, 8, -0.013));
+			pointsTable.put("RCB",	new PointsTableRow("RCB",11,4,7,0,0, 8, -0.683));
+			pointsTable.put("RR",	new PointsTableRow("RR", 10,3,7,0,0, 6, -0.47));
+		}
+		remainingMatches = new ArrayList<Pair<String, String>>();
+		remainingMatches.add(new Pair<String, String>("KKR","RR"));
+		remainingMatches.add(new Pair<String, String>("CSK","MI"));
+
+		remainingMatches.add(new Pair<String, String>("RR","SRH"));
+		remainingMatches.add(new Pair<String, String>("DD","RCB"));
+		remainingMatches.add(new Pair<String, String>("KKR","MI"));
+		remainingMatches.add(new Pair<String, String>("SRH","KXP"));
+
+		remainingMatches.add(new Pair<String, String>("RCB","RR"));
+		remainingMatches.add(new Pair<String, String>("CSK","DD"));
+		remainingMatches.add(new Pair<String, String>("MI","SRH"));
+		remainingMatches.add(new Pair<String, String>("KXP","KKR"));
+
+		remainingMatches.add(new Pair<String, String>("DD","RR"));
+		remainingMatches.add(new Pair<String, String>("RCB","SRH"));
+		remainingMatches.add(new Pair<String, String>("KXP","CSK"));
+		remainingMatches.add(new Pair<String, String>("MI","KKR"));
+	}
+}

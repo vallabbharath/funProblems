@@ -1,0 +1,39 @@
+"C:\Program Files\Java\jdk1.8.0_121\bin\java" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\lib\idea_rt.jar=54174:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Users\vac\Downloads\IPL\output\production\IPL" vac.tryout.TablePositionsPredictor
+Total number of scenarios = 65536
+Qualification Scenario for team null:
+
+
+Probability of qualification not considering teams with equal points (in Pos 4,5, etc):
+Team SRH = 99.6
+Team CSK = 93.8
+Team KXP = 71.3
+Team MI = 35.3
+Team KKR = 35.2
+Team RR = 8.3
+Team RCB = 0.3
+Team DD = 0.3
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) based on current NRR :
+Team SRH = 100
+Team CSK = 99.6
+Team KXP = 85.8
+Team KKR = 62.7
+Team MI = 41.8
+Team RR = 8.3
+Team DD = 0.6
+Team RCB = 0.5
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) by splitting probability:
+i.e, when 2 teams contend for pos 4, consider probability as 0.5, 3 teams for pos 4 as 0.33, 3 teams for pos 3,4 as 0.66 etc
+Team SRH = 99.9
+Team CSK = 97
+Team KXP = 81.6
+Team MI = 49.2
+Team KKR = 49.2
+Team RR = 17.4
+Team RCB = 2.6
+Team DD = 2.5
+
+Process finished with exit code 0

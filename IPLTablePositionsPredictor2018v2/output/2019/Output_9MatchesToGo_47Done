@@ -1,0 +1,30 @@
+Probability of qualification not considering teams with equal points (in Pos 4,5, etc):
+Team DD = 100
+Team CSK = 100
+Team MI = 80.8
+Team KXP = 25.3
+Team SRH = 23
+Team KKR = 5.8
+Team RR = 2.7
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) based on current NRR :
+Team DD = 100
+Team CSK = 100
+Team MI = 98.4
+Team SRH = 54.2
+Team KXP = 29.6
+Team KKR = 13.6
+Team RR = 2.7
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) by splitting probability:
+i.e, when 2 teams contend for pos 4, consider probability as 0.5, 3 teams for pos 4 as 0.33, 3 teams for pos 3,4 as 0.66 etc
+Team DD = 100
+Team CSK = 100
+Team MI = 91.4
+Team KXP = 38.6
+Team SRH = 37.8
+Team KKR = 17.4
+Team RR = 12.3
+Team RCB = 0.9

@@ -23,29 +23,35 @@ public class PointsTableAndFixtures {
         numberOfTeams = 8;
         pointsTable = new HashMap<String, PointsTableRow>(numberOfTeams);
         {
-            pointsTable.put("SRH",	new PointsTableRow("SRH",11,9,2,0,0,18, +0.473));
-            pointsTable.put("CSK",	new PointsTableRow("CSK",10,7,3,0,0,14, +0.421));
-            pointsTable.put("KXP",	new PointsTableRow("KXP",10,6,4,0,0,12, +0.097));
-            pointsTable.put("MI",	new PointsTableRow("MI", 11,5,6,0,0,10, +0.529));
-            pointsTable.put("KKR",	new PointsTableRow("KKR",11,5,6,0,0,10, -0.359));
-            pointsTable.put("RR",	new PointsTableRow("RR", 10,4,6,0,0, 8, -0.552));
-            pointsTable.put("RCB",	new PointsTableRow("RCB",10,3,7,0,0, 6, -0.361));
-            pointsTable.put("DD",	new PointsTableRow("DD", 11,3,8,0,0, 6, -0.447));
+            pointsTable.put("NZ",	new PointsTableRow("NZ", 6,5,0,0,1,11, +1.306));
+            pointsTable.put("AUS",	new PointsTableRow("AUS",6,5,1,0,0,10, +0.849));
+            pointsTable.put("IND",	new PointsTableRow("IND", 5,4,0,0,1,9, +0.809));
+            pointsTable.put("ENG",	new PointsTableRow("ENG",6,4,2,0,0,8, +1.457));
+            pointsTable.put("SL",	new PointsTableRow("SL",6,2,2,0,0,6, -1.119));
+            pointsTable.put("BD",	new PointsTableRow("BD",6,2,3,0,1,5, -0.407));
+            pointsTable.put("PAK",	new PointsTableRow("PAK",6,2,3,0,1, 5, -1.93));
+            pointsTable.put("WI",	new PointsTableRow("WI", 6,1,4,0,1,3, +0.19));
+            pointsTable.put("SA",	new PointsTableRow("SA",7,1,5,0,1, 3, -0.193));
+            pointsTable.put("AFG",	new PointsTableRow("AFG",6,0,6,0,0,0, -1.712));
         }
         remainingMatches = new ArrayList<Pair<String, String>>();
-        remainingMatches.add(new Pair<String, String>("RR","CSK"));
-        remainingMatches.add(new Pair<String, String>("KXP","KKR"));
-        remainingMatches.add(new Pair<String, String>("DD","RCB"));
-        remainingMatches.add(new Pair<String, String>("CSK","SRH"));
-        remainingMatches.add(new Pair<String, String>("MI","RR"));
-        remainingMatches.add(new Pair<String, String>("KXP","RCB"));
-        remainingMatches.add(new Pair<String, String>("KKR","RR"));
-        remainingMatches.add(new Pair<String, String>("MI","KXP"));
-        remainingMatches.add(new Pair<String, String>("RCB","SRH"));
-        remainingMatches.add(new Pair<String, String>("DD","CSK"));
-        remainingMatches.add(new Pair<String, String>("RR","RCB"));
-        remainingMatches.add(new Pair<String, String>("SRH","KKR"));
-        remainingMatches.add(new Pair<String, String>("DD","MI"));
-        remainingMatches.add(new Pair<String, String>("CSK","KXP"));
+
+        remainingMatches.add(new Pair<String, String>("AFG","BD"));
+        remainingMatches.add(new Pair<String, String>("ENG","AUS"));
+        remainingMatches.add(new Pair<String, String>("NZ","PAK"));
+        remainingMatches.add(new Pair<String, String>("IND","WI"));
+        remainingMatches.add(new Pair<String, String>("SA","SL"));
+
+        remainingMatches.add(new Pair<String, String>("AFG","PAK"));
+        remainingMatches.add(new Pair<String, String>("AUS","NZ"));
+        remainingMatches.add(new Pair<String, String>("ENG","IND"));
+        remainingMatches.add(new Pair<String, String>("SL","WI"));
+        remainingMatches.add(new Pair<String, String>("BD","IND"));
+
+        remainingMatches.add(new Pair<String, String>("ENG","NZ"));
+        remainingMatches.add(new Pair<String, String>("AFG","WI"));
+        remainingMatches.add(new Pair<String, String>("BD","PAK"));
+        remainingMatches.add(new Pair<String, String>("IND","SL"));
+        remainingMatches.add(new Pair<String, String>("AUS","SA"));
     }
 }

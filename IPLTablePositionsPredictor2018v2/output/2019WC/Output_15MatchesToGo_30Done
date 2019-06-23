@@ -1,0 +1,32 @@
+Probability of qualification not considering teams with equal points (in Pos 4,5, etc):
+Team NZ = 95.9
+Team AUS = 91.7
+Team IND = 87.5
+Team ENG = 63.9
+Team SL = 16.6
+Team BD = 8.5
+Team PAK = 8
+Team WI = 0.2
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) based on current NRR :
+Team NZ = 99.5
+Team AUS = 96
+Team IND = 92.4
+Team ENG = 77.2
+Team SL = 16.6
+Team BD = 9.1
+Team PAK = 8
+Team WI = 0.8
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) by splitting probability:
+i.e, when 2 teams contend for pos 4, consider probability as 0.5, 3 teams for pos 4 as 0.33, 3 teams for pos 3,4 as 0.66 etc
+Team NZ = 97.8
+Team AUS = 94.6
+Team IND = 90.2
+Team ENG = 70.8
+Team SL = 24.4
+Team BD = 10.8
+Team PAK = 10.4
+Team WI = 0.6
