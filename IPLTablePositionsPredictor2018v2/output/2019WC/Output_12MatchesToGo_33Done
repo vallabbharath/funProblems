@@ -1,0 +1,37 @@
+Total number of scenarios = 4096
+Qualification Scenario for team null:
+
+
+Probability of qualification not considering teams with equal points (in Pos 4,5, etc):
+Team AUS = 100
+Team NZ = 93.1
+Team IND = 85.5
+Team ENG = 38.2
+Team BD = 19.2
+Team PAK = 18.4
+Team SL = 17.5
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) based on current NRR :
+Team AUS = 100
+Team NZ = 99.6
+Team IND = 92.5
+Team ENG = 48.8
+Team BD = 21.7
+Team PAK = 18.4
+Team SL = 17.5
+Team WI = 1.1
+
+
+Probability of qualification, when qualifying teams with equal points (in Pos 4,5, etc) by splitting probability:
+i.e, when 2 teams contend for pos 4, consider probability as 0.5, 3 teams for pos 4 as 0.33, 3 teams for pos 3,4 as 0.66 etc
+Team AUS = 100
+Team NZ = 96.7
+Team IND = 89.7
+Team ENG = 43.5
+Team BD = 23.8
+Team SL = 22.8
+Team PAK = 22.7
+Team WI = 0.5
+
+Process finished with exit code 0
